@@ -1,10 +1,9 @@
-
-
 {
-  "homepage": "http://windwinter.github.io/responsive_navbar",
+  
   "name": "responsive_navbar",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://windwinter.github.io/responsive_navbar",
   "dependencies": {
     "gh-pages": "^2.0.1",
     "react": "^16.8.6",

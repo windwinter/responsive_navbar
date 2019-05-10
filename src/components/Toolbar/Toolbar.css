@@ -1,0 +1,15 @@
+.toolbar{
+    width:100%;
+    position:fixed;
+    background: #9A13aa;
+    columns: #999999;
+    height:56px;
+    top:0;
+    left:0;
+}
+
+.toolbar__logo a{
+    color:white;
+    text-decoration: none;
+    font-size:2rem;
+}

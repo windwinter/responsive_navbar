@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
-import Toolbar from './components/Toolbar/Toolbar'
+import Toolbar123 from './components/Toolbar/Toolbar'
+import drawerToggleButton from './components/Toolbar/drawerToggleButton'
 import './App.css';
 
 class App extends React.Component{
@@ -8,7 +9,8 @@ class App extends React.Component{
   return (
     <div className="App">
       <header className="App-header">
-      <Toolbar />
+      <drawerToggleButton />
+      <Toolbar123 />
       <main style={{marginTop:'64px'}}>
         <p>page content!</p>
       </main>

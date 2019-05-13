@@ -6,6 +6,11 @@
     height:56px;
     top:0;
     left:0;
+    transform:translateX(0);
+}
+.toolbar.open{
+    transform: translateX(50%);
+    transition:transform 0.2s ease;
 }
 .toolbar__navigation{
     display:flex;
@@ -47,4 +52,11 @@ color:orangered;
 
 .spacer{
     flex:1;
+}
+
+@media (max-width:768px){
+    .toolbar_navigation_items{
+        display:none;
+    }
+
 }

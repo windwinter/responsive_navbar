@@ -1,10 +1,16 @@
 import React from 'react';
 import './Toolbar.css';
 import Drawer from './drawerToggleButton'
-const Toolbar = props =>(
-    <header className="toolbar">
+const Toolbar = props =>{
+    let toolbar_class='toolbar';
+    if (props.sideDrawerOpen){
+        toolbar_class='toolbar open'
+    }
+    
+    return(
+    <header className={toolbar_class}>
         <nav className="toolbar__navigation">
-            <div><Drawer /></div>
+            <div><Drawer click={props.drawerToggleClickHandler}/></div>
             <div className="toolbar__logo"><a href="/">LOGO</a></div>
             <div className="spacer"></div>
             <div className="toolbar_navigation_items">
@@ -17,7 +23,7 @@ const Toolbar = props =>(
         </nav>
     </header>
 
-
-);
+    );
+};
 
 export default Toolbar;

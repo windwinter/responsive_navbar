@@ -15,7 +15,9 @@
 
 }
 
-
+.toolbar__logo{
+    margin-left:0.5rem;
+}
 
 .toolbar__logo a{
     color:white;

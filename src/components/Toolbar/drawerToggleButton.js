@@ -1,22 +1,14 @@
 import React from 'react';
-import './Toolbar.css';
 
-const Toolbar111 = props =>(
-    <header className="toolbar">
-        <nav className="toolbar__navigation">
-            <div className="toolbar__logo"><a href="/">LOGO</a></div>
-            <div className="spacer"></div>
-            <div className="toolbar_navigation_items">
-                <ul>
-                    <li><a href="/">Products</a></li>
-                    <li><a href="/">Users</a></li>
+import './drawerToggleButton.css';
 
-                </ul>
-            </div>
-        </nav>
-    </header>
-
+const drawerToggleButton = props =>(
+    <button className="toggle_button">
+        <div className="toggle_button_line"></div>
+        <div className="toggle_button_line"></div>
+        <div className="toggle_button_line"></div>
+    </button>
 
 );
 
-export default Toolbar111;
+export default drawerToggleButton;
